@@ -40,7 +40,7 @@ def get_mid(data):
 def get_last_half(data):
     """Return the values in the last half of data (slice) as a list.
     >>> get_last_half(['a', 'b', 'c', 'd', 'e'])
-    ['b', 'c', 'd', 'e']
+    [c', 'd', 'e']
     """
 
-    return data[1:]
+    return data[2:]
